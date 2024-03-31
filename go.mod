@@ -3,6 +3,7 @@ module github.com/gopxl/beep
 go 1.21
 
 require (
+	github.com/cocoonlife/goflac v0.0.0-20170210142907-50ea06ed5a9d
 	github.com/ebitengine/oto/v3 v3.1.0
 	github.com/gdamore/tcell/v2 v2.6.0
 	github.com/hajimehoshi/go-mp3 v0.3.4
@@ -11,9 +12,11 @@ require (
 	github.com/orcaman/writerseeker v0.0.0-20200621085525-1d3f536ff85e
 	github.com/pkg/errors v0.9.1
 	github.com/stretchr/testify v1.8.4
+	github.com/tosone/minimp3 v1.0.2
 )
 
 require (
+	github.com/cocoonlife/testify v0.0.0-20160218172820-792cc1faeb64 // indirect
 	github.com/davecgh/go-spew v1.1.1 // indirect
 	github.com/ebitengine/purego v0.5.0 // indirect
 	github.com/gdamore/encoding v1.0.0 // indirect
@@ -29,3 +32,5 @@ require (
 	golang.org/x/text v0.7.0 // indirect
 	gopkg.in/yaml.v3 v3.0.1 // indirect
 )
+
+replace github.com/cocoonlife/goflac v0.0.0-20170210142907-50ea06ed5a9d => github.com/go-musicfox/goflac v0.1.5
